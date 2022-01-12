@@ -1,12 +1,13 @@
 .movies{
     width: 100%;
-    padding-top: 5vh 
+    padding-top: 5vh;
+    text-align:center;
 }
 
 
 #root{
     background-image: url('/public/moviesresources/imgs/bg.jpg');
-    height: 240vh; 
+    height: 250vh; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;

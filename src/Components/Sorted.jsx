@@ -9,7 +9,7 @@ const Sorted = () =>{
         <div className='sortedDiv'>
             <p>Sort by: </p>
             <Formik initialValues = {{ radio: '' }} onSubmit={values => console.log(values)} >
-                <Form>
+                <Form className='sortedForm'>
                     <Radio name='radio' value='sortByDate' label='Date'/>
                     <Radio name='radio' value='sortbyRating' label='Rating'/>
                     <button type='submit'>Sort</button>

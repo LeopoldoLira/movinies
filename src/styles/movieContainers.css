@@ -43,13 +43,13 @@
     font-weight: 900;
 }
 
-form{
+.sortedForm{
     display: flex;
     gap:1em;
 }
 
 
-form > label > input {
+.sortedForm > label > input {
     width: 25px;
     height: 25px;
     position: relative;

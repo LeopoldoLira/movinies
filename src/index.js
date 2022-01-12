@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from './Components/login'
+import Wishlist from './Components/wishlist'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element ={<App />} />
+      <Route path="login" element ={<Login />} />
+      <Route path="wishlist" element ={<Wishlist />} />
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
