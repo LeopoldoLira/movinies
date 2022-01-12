@@ -1,0 +1,10 @@
+div ul li {
+    list-style-type: none;
+    color: #ffffff;
+    font-size:1.5em;
+}
+
+div ul{
+    display:flex;
+    gap: 3em
+}

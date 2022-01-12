@@ -1,0 +1,75 @@
+
+
+.movieContainers > div > img {
+    width: 15vw;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 5px 3px rgba(0,0,0,0.3);
+    transition: transform ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.movieContainers > div > img:hover{
+    transform:scale(1.01,1.01)
+}
+
+.movieContainers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: center;
+}
+
+.miniContainer{
+    width:15vw;
+}
+
+.miniContainer > p {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: white;
+}
+
+.sortedDiv{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 5vh;
+    margin-top: 5vh;
+    color: #ffffff;
+    gap: 3em;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+form{
+    display: flex;
+    gap:1em;
+}
+
+
+form > label > input {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 2em;
+  cursor:pointer;
+  transition: transform ease-in-out 0.5s;
+}
+
+button:hover{
+    transform: scale(1.1,1.1)
+}
