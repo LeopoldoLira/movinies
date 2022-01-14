@@ -7,7 +7,7 @@
 
 #root{
     background-image: url('/public/moviesresources/imgs/bg.jpg');
-    height: 250vh; 
+    height: 260vh; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
