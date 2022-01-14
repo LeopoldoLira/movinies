@@ -24,6 +24,19 @@
     width:15vw;
 }
 
+@media (max-width:992px) {
+    .miniContainer{
+        width:20vw;
+    }   
+}
+
+@media (max-width:672px) {
+    .miniContainer{
+        width:25vw;
+    }   
+}
+
+
 .miniContainer > p {
     font-size: 1.5em;
     font-weight: 300;
